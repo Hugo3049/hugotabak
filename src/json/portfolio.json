@@ -1,0 +1,14 @@
+[
+    {
+        "Afbeelding": "./images/portfolio/theWebshop.png",
+        "Naam": "Easy Templates",
+        "Beschrijving": "Dit is een van mijn eerste projecten die ik heb gemaakt als eindproduct voor de toetsing van mijn kennis van HTML, CSS en Javascript. Het project heet 'Easy Templates' en is een webwinkel waar gebruikers sjablonen kunnen kopen. Bezoekers kunnen producten toevoegen aan hun winkelmand en bestellingen plaatsen via de winkelpagina. De website is lokaal te installeren door de index.html te openen in een browser of met een live server. Als admin kun je via de adminpagina producten toevoegen, verwijderen en bestellingen beheren. De webwinkel is ook online beschikbaar via een standaardlink.",
+        "link": "https://www.hugotabak.com/portfolio/theWebshop"
+    },
+    {
+        "Afbeelding": "./images/portfolio/assetsInsight.png",
+        "Naam": "Assets Insight",
+        "Beschrijving": "Assets Insight is een van de projecten waar ik momenteel het meest trots op ben. Het is een groot project waarbij kennis van zowel back-end als front-end ontwikkeling gecombineerd moet worden. Assets Insight is een blogwebsite waar nieuwe gebruikers en schrijvers kunnen worden toegevoegd. Gebruikers kunnen blogs lezen, zoeken, accounts aanmaken en inloggen. Admins hebben extra rechten, zoals het beheren van gebruikers, rechten toekennen (lezer/schrijver/admin), wachtwoorden resetten en artikelen schrijven. De site wordt lokaal geïnstalleerd met behulp van een database en npm-styles, en is daarna toegankelijk via localhost.",
+        "link": "https://www.hugotabak.com/portfolio/assetsInsight"
+    }
+]

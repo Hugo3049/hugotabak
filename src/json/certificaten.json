@@ -1,0 +1,128 @@
+[
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "HTML/CSS Beginner",
+        "behaalDatum": "Sep 19, 2022",
+        "referentieNummer": "ef47d346-2c40-483a-a23b-624156bca511",
+        "link": "https://www.nexed.com/verify?certId=ef47d346-2c40-483a-a23b-624156bca511"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "HTML/CSS Advanced",
+        "behaalDatum": "Nov 01, 2022",
+        "referentieNummer": "1fb4f1bc-ef8f-4613-822b-45ef1ec9fd61",
+        "link": "https://www.nexed.com/verify?certId=1fb4f1bc-ef8f-4613-822b-45ef1ec9fd61"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Javascript Beginner",
+        "behaalDatum": "Nov 16, 2022",
+        "referentieNummer": "562e7e2f-b512-454f-865b-00e3f92c604d",
+        "link": "https://www.nexed.com/verify?certId=562e7e2f-b512-454f-865b-00e3f92c604d"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Bootstrap",
+        "behaalDatum": "Dec 13, 2022",
+        "referentieNummer": "48903e6c-fc27-4c8c-97de-54c4d82a3494",
+        "link": "https://www.nexed.com/verify?certId=48903e6c-fc27-4c8c-97de-54c4d82a3494"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "JavaScript Novice",
+        "behaalDatum": "Apr 6, 2023",
+        "referentieNummer": "65e428f6-9008-48b6-a52a-799f03d49b6a",
+        "link": "https://www.nexed.com/verify?certId=65e428f6-9008-48b6-a52a-799f03d49b6a"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "PHP Beginner",
+        "behaalDatum": "Aug 6, 2023",
+        "referentieNummer": "018cf290-7e81-7d5c-a416-62e5e28cdfd2",
+        "link": "https://www.nexed.com/verify?certId=018cf290-7e81-7d5c-a416-62e5e28cdfd2"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Scrum",
+        "behaalDatum": "Sep 15, 2023",
+        "referentieNummer": "018cf291-3015-7386-b462-71d64e3b5309",
+        "link": "https://www.nexed.com/verify?certId=018cf291-3015-7386-b462-71d64e3b5309"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "PHP Novice",
+        "behaalDatum": "Oct 9, 2023",
+        "referentieNummer": "018cf290-babf-79e2-8f70-22b8520bd08a",
+        "link": "https://www.nexed.com/verify?certId=018cf290-babf-79e2-8f70-22b8520bd08a"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "PHP Web",
+        "behaalDatum": "Oct 30, 2023",
+        "referentieNummer": "018cf290-f1a9-7590-819b-fa06d0718d5a",
+        "link": "https://www.nexed.com/verify?certId=018cf290-f1a9-7590-819b-fa06d0718d5a"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "HTML Pro",
+        "behaalDatum": "Dec 4, 2023",
+        "referentieNummer": "018cf28e-461e-7037-a8cf-b2e6d265f227",
+        "link": "https://www.nexed.com/verify?certId=018cf28e-461e-7037-a8cf-b2e6d265f227"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "JavaScript Classes",
+        "behaalDatum": "Dec 18, 2023",
+        "referentieNummer": "018cf28e-9741-76fa-92c5-df3163302868",
+        "link": "https://www.nexed.com/verify?certId=018cf28e-9741-76fa-92c5-df3163302868"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "JavaScript Pro",
+        "behaalDatum": "Jan 11, 2024",
+        "referentieNummer": "018cf85d-6ba8-777b-a164-003b709b4aae",
+        "link": "https://www.nexed.com/verify?certId=018cf85d-6ba8-777b-a164-003b709b4aae"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "CSS Pro",
+        "behaalDatum": "Jan 13, 2024",
+        "referentieNummer": "018d035b-d14f-7db0-b8b3-a5b99c081087",
+        "link": "https://www.nexed.com/verify?certId=018d035b-d14f-7db0-b8b3-a5b99c081087"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "MySQL Beginner",
+        "behaalDatum": "Jan 31, 2024",
+        "referentieNummer": "01928f36-5f7c-7c3e-bf15-3e08e0549723",
+        "link": "https://www.nexed.com/verify?certId=01928f36-5f7c-7c3e-bf15-3e08e0549723"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Database PDO",
+        "behaalDatum": "Mar 4, 2024",
+        "referentieNummer": "018e08ca-cb0f-72ec-9ee8-345e06397ca0",
+        "link": "https://www.nexed.com/verify?certId=018e08ca-cb0f-72ec-9ee8-345e06397ca0"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Fullstack Webdeveloper",
+        "behaalDatum": "Jun 28, 2024",
+        "referentieNummer": "01906b22-7c82-70d8-8330-7517d98d4a56",
+        "link": "https://www.nexed.com/verify?certId=01906b22-7c82-70d8-8330-7517d98d4a56"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Database Advanced",
+        "behaalDatum": "Sep 19, 2024",
+        "referentieNummer": "01920a09-92f6-7a7b-a7fe-2eb4b3d4bf2d",
+        "link": "https://www.nexed.com/verify?certId=01920a09-92f6-7a7b-a7fe-2eb4b3d4bf2d"
+    },
+    {
+        "logo": "./images/logo-bit-academy.jpg",
+        "titel": "Object Oriented Programming Intro",
+        "behaalDatum": "Oct 4, 2024",
+        "referentieNummer": "019256ec-14ed-7b0e-902c-2f12fdbe58fc",
+        "link": "https://www.nexed.com/verify?certId=019256ec-14ed-7b0e-902c-2f12fdbe58fc"
+    }
+]

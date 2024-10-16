@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Hugo Tabak</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Scripts -->
+    <script src="./scripts/navbar.js" defer></script>
+    <script src="./scripts/loadcertificaten.js" defer></script>
+    <script src="./scripts/loadPortfolio.js" defer></script>
+</head>
+
+<body class="bg-background">
+    <!-- Navbar -->
+    <header class="bg-background p-3 shadow-lg w-full lg:fixed z-20 sticky top-0">
+        <!-- Desktop navbar -->
+        <ul class="container mx-auto py-3 flex justify-between items-center tracking-wide">
+            <li>
+                <a href="index.html">
+                    <h1 class="text-3xl font-bold underline italic"><span class="text-primary">H</span>ugo <span
+                            class="text-primary">T</span>abak</h1>
+                </a>
+            </li>
+            <li>
+                <ul class="hidden md:flex items-end justify-end gap-10 text-nav-text text-base cursor-pointer">
+                    <li class="hover:text-secondary-color"><a href="#home">Home</a></li>
+                    <li class="hover:text-secondary-color"><a href="#overmij">Over mij</a></li>
+                    <li class="hover:text-secondary-color"><a href="#ervaringen">Ervaringen</a></li>
+                    <li class="hover:text-secondary-color"><a href="#certificaten">Certificaten</a></li>
+                    <li class="hover:text-secondary-color"><a href="#portfolio">Portfolio</a></li>
+                    <li class="hover:text-secondary-color"><a href="#contact">Contact</a></li>
+                </ul>
+            </li>
+            <!-- Mobile navbar -->
+            <div class="flex justify-end lg:hidden">
+                <button id="mobile-menu-btn" class="flex justify-end items-center px-3 py-2">
+                    <img class="fill-current h-6 w-5" src="./images//icons/menu.svg" alt="Menu">
+                </button>
+                <!-- Dropdown menu -->
+                <div id="mobile-menu"
+                    class="hidden bg-background absolute z-20 top-20 left-0 w-full mt-2 border-none rounded-b-lg shadow-md">
+                    <a href="#home" class="block px-4 py-2 text-primary font-bold mx-2">
+                        Home
+                    </a>
+                    <a href="#overmij" class="block px-4 py-2 hover:text-primary mx-2">
+                        Over mij
+                    </a>
+                    <a href="#ervaringen" class="block px-4 py-2 hover:text-primary mx-2">
+                        Ervaringen
+                    </a>
+                    <a href="#certificaten" class="block px-4 py-2 hover:text-primary mx-2">
+                        Certificaten
+                    </a>
+                    <a href="#portfolio" class="block px-4 py-2 hover:text-primary mx-2">
+                        Portfolio
+                    </a>
+                    <a href="#contact" class="block px-4 py-2 hover:text-primary mx-2">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </ul>
+    </header>
+    <!-- Hero -->
+    <section id="home" class="container mx-auto py-24 px-4 sm:px-0">
+        <div class="flex flex-col-reverse sm:flex-row justify-between items-center">
+            <div class="w-full text-left sm:text-left sm:pl-8">
+                <h3 class="text-lg my-2">Even voorstellen...</h3>
+                <h1 class="text-3xl font-bold my-2">Hugo Tabak</h1>
+                <p class="text-secondary my-2">Student bij de Bit-Academy, Noorderpoort</p>
+                <div class="grid grid-cols-2 gap-5 justify-center sm:justify-start">
+                    <button class="bg-primary text-white rounded-md px-3 py-2">
+                        <a href="#contact">
+                            Contact opnemen
+                        </a>
+                    </button>
+                    <button class="border-2 border-primary text-primary rounded-md px-3 py-2">
+                        <a href="#ervaringen">
+                            Mijn ervaringen
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full flex justify-center sm:justify-end mb-8 sm:mb-0">
+                <img class="rounded-lg w-8/12 h-8/12" src="./images/Hugo.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Over mij -->
+    <section id="overmij" class="bg-primary">
+        <div class="container mx-auto py-20 px-4 sm:px-0">
+            <h1 class="text-3xl font-bold text-white">Over mij</h1>
+            <p class="text-gray-300 my-2">
+                Hallo, ik ben Hugo Tabak, een gepassioneerde softwareontwikkelaar in opleiding bij Noorderpoort/Bit
+                Academy in Groningen. Als student ben ik constant bezig met het bedenken van innovatieve oplossingen en
+                het optimaliseren van processen. Mijn grootste passie ligt in het ontwikkelen van intelligente software
+                die niet alleen problemen oplost, maar ook echte waarde creëert voor gebruikers.
+            </p>
+            <p class="text-gray-300 my-2">
+                Ik ben altijd gemotiveerd om mezelf verder te ontwikkelen door nieuwe technologieën te ontdekken en mijn
+                vaardigheden te verdiepen, zowel op het gebied van front-end als back-end development. Door mijn
+                nieuwsgierigheid en vastberadenheid ben ik continu op zoek naar manieren om innovatie en efficiëntie te
+                combineren in elk project waar ik aan werk. Mijn doel is om met mijn werk een blijvende impact te maken,
+                zowel op technisch vlak als in het leven van de gebruikers.
+            </p>
+        </div>
+    </section>
+
+    <!-- Ervaringen -->
+    <section id="ervaringen" class="container mx-auto py-20 px-4 sm:px-0">
+        <div>
+            <h1 class="text-3xl font-bold">Technische vaardigheden</h1>
+            <p class="text-secondary my-2">
+                Graag laat ik u zien waar ik mij mee bezig hou als het aankomt op het ontwikkelen van een
+                (web)applicatie.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 my-5">
+                <!-- Buiten school -->
+                <div class="w-full">
+                    <h3 class="text-lg font-semibold">Waar aan gewerkt wordt</h3>
+                    <ul class="text-gray-500">
+                        <li>Design UI/UX</li>
+                        <li>App ontwikkeling (Apple gericht)</li>
+                        <li>Webhosting</li>
+                    </ul>
+                </div>
+                <!-- Binnen school -->
+                <div class="w-full">
+                    <h3 class="text-lg font-semibold">Code kennis</h3>
+                    <ul class="text-gray-500">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP (OOP)</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <!-- Frameworks -->
+                <div class="w-full">
+                    <h3 class="text-lg font-semibold">Frameworks</h3>
+                    <ul class="text-gray-500">
+                        <li>Bootstrap</li>
+                        <li>TailwindCSS</li>
+                        <li>Laravel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!-- Non software -->
+<div class="mt-10">
+    <h1 class="text-3xl font-bold">Soft skills</h1>
+    <p class="text-secondary my-2">
+        Graag laat ik u zien welke vaardigheden ik heb buitenom het programmeren.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 text-gray-500 my-5">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-lg px-4 py-6 rounded-lg flex items-center">
+            <div class="fas fa-users text-blue-500 text-2xl mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                </svg>
+              </div>
+            <p>Teamspeler</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white shadow-lg px-4 py-6 rounded-lg flex items-center">
+            <div class="fas fa-lightbulb text-yellow-500 text-2xl mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                </svg>
+            </div>
+            <p>Probleemoplossend vermogen</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white shadow-lg px-4 py-6 rounded-lg flex items-center">
+            <div class="fas fa-comments text-green-500 text-2xl mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
+                </svg>                  
+            </div>
+            <p>Communicatieve vaardigheden</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white shadow-lg px-4 py-6 rounded-lg flex items-center">
+            <div class="fas fa-brain text-purple-500 text-2xl mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+                </svg>                  
+            </div> <!-- Icon for Creative Thinking -->
+            <p>Creatief denken</p>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!-- Certificaten -->
+    <section id="certificaten" class="container mx-auto py-20 px-4 sm:px-0">
+        <h1 class="text-3xl font-bold my-2">Certificaten</h1>
+        <p class="text-secondary my-2 lg:w-9/12">Hier vind je een overzicht van mijn behaalde certificaten. Deze
+            certificaten
+            weerspiegelen mijn vaardigheden en kennis in verschillende programmeertalen en technologieën.</p>
+        <!-- Cards -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 certificaten-container">
+            <!-- Cards hier dynamish inladen -->
+        </div>
+        <button id="load-more-btn" class="bg-primary text-white p-2 mt-4 rounded hidden">Meer certificaten
+            laden</button>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio" class="container mx-auto py-20 px-4 sm:px-0">
+        <h1 class="text-3xl font-bold my-2">Projecten</h1>
+        <p class="text-secondary my-2 w-full lg:w-9/12">
+            Bekijk hieronder een selectie van mijn recente projecten. Klik op de links om ze te bekijken.
+        </p>
+        <!-- Cards -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 mt-4 portfolio-container">
+            <!-- Cards hier dynamisch inladen -->
+        </div>
+    </section>
+<!-- Contact -->
+<section id="contact" class="bg-primary text-white">
+    <div class="container mx-auto py-20 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Contact Informatie -->
+            <div>
+                <h1 class="text-3xl font-bold">Neem contact op met mij</h1>
+                <p class="mt-4">
+                    Heb je vragen of wil je direct aan de slag? Aarzel dan niet om contact met mij op te nemen.
+                </p>
+                <ol class="mt-5 space-y-2">
+                    <li><span class="font-bold">Tel:</span> +31 6 8669 9602</li>
+                    <li><span class="font-bold">Email:</span> dhwbeetsterzwaag@gmail.com</li>
+                    <li><a href="" class="underline">LinkedIn</a></li>
+                </ol>
+            </div>
+
+            <!-- Stageplek Melding -->
+            <div>
+                <p class="text-lg font-bold text-accent">
+                    Stageplek gezocht: heeft u momenteel een stageplek waar developers zich kunnen bewijzen? Neem
+                    dan graag zo snel mogelijk contact met mij op. Ik ben momenteel op zoek naar een leuke stageplek!
+                </p>
+                <ul class="mt-4 space-y-2">
+                    <li>Open voor samenwerkingen</li>
+                    <li>Open voor nieuwe/bestaande projecten</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="bg-primary text-white p-4 my-10">
+        <p class="text-center">
+            &copy; Deze website is gemaakt door Hugo Tabak en wordt beheert door <a class="underline"
+                href="http://thweb.nl" target="_blank">TH web.</a>
+        </p>
+    </footer>
+</body>
+
+</html>
